@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:15px 30px;
+    font-size: 17px;
+    padding:8px;
+}
+header{
+    background-color: rgb(17, 143, 158);
+    /* greenish background */
+    text-align: center;
+    padding: 50px;
+    color:#edf1f2;
+    /*  text color white*/
+}
+
+header h1{
+    font-size:40 px;
+}
+
+.container{
+    background-color: lightgrey;
+    padding: 5px 20px 15px 20px ;
+    border: 1px solid black;
+    border-radius:4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"]
+{
+    width:200px;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+select{
+    background-color: #fff;
+    border:1px solid #ccc;
+}
+
+input[type="submit"]{
+    background-color: #4daea1;
+    color:white;
+    padding:12px 20px;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+    width:100%;
+}
+
+input[type="submit"]:hover{
+    background-color: #027d48;
+}
+
+nav{
+    background-color: #333;
+    /* Grey Color*/
+    overflow: hidden;
+}
+
+nav a{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+
+nav a:hover{
+    color:tomato;
+    text-decoration: underline;
+
+}

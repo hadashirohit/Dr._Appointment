@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+}
+
+header{
+    background-color: rgb(17, 143, 158);
+    /* greenish background */
+    text-align: center;
+    padding: 50px;
+    color:#edf1f2;
+    /*  text color white*/
+}
+
+header h1{
+    font-size:40 px;
+}
+
+li{
+    list-style-type: circle;
+}
+
+nav{
+    background-color: #333;
+    /* Grey Color*/
+    overflow: hidden;
+}
+
+nav a{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+
+nav a:hover{
+    color:tomato;
+    text-decoration: underline;
+
+}

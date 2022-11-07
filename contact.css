@@ -1,0 +1,129 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0px;
+}
+
+header{
+    background-color: rgb(17, 143, 158);
+    /* greenish background */
+    text-align: center;
+    padding: 50px;
+    color:#edf1f2;
+    /*  text color white*/
+}
+
+header h1{
+    font-size:40 px;
+} 
+
+a{
+    padding: 10px;
+}
+
+img:hover{
+    animation: shake 0.5s;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+p{
+    padding: 10px;
+    font-style: italic;
+   
+    
+    
+}
+
+.collect{
+    color: rgb(17, 143, 158);
+    background-color: #fff;
+    padding-left: 40%;
+    border: 1px solid black;
+    border-radius:4px;
+    
+
+}
+input[type="submit"]{
+    background-color: #4daea1;
+    color:white;
+    padding:12px 20px;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+    width:30%;
+}
+
+input[type="submit"]:hover{
+    background-color: #027d48;
+}
+
+input[type="queries"],
+input[type="number/email"]
+{
+    width:200px;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.test1{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.test2{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+
+}
+
+.test{
+   justify-content: center;
+   justify-items: center;
+   text-align: center;
+    padding-top: 10px;
+}
+
+nav{
+    background-color: #333;
+    /* Grey Color*/
+    overflow: hidden;
+}
+
+nav a{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+
+nav a:hover{
+    color:tomato;
+    text-decoration: underline;
+
+}
+
+textarea{
+    justify-content: center;
+    text-align: center;
+}
+
